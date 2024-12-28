@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard - HIRWA Rwanda</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #35424a;
+        }
+        .feature {
+            background: #e2e2e2;
+            margin: 10px 0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #35424a;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .logout-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 20px 0;
+            background: #35424a;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Dashboard</h1>
+    </header>
+
+    <div class="container">
+        <h2>Hello, [Student Name]</h2>
+        <p>Welcome to your personal dashboard. Here you can access various features to enhance your learning experience.</p>
+
+        <div class="feature">
+            <h3>Chat with Peers</h3>
+            <p>Connect and collaborate with your classmates and instructors.</p>
+            <a href="chat.html" class="logout-button">Start Chatting</a>
+        </div>
+
+        <div class="feature">
+            <h3>Create Publications</h3>
+            <p>Share your knowledge and work with the community by creating publications.</p>
+            <a href="create-publication.html" class="logout-button">Create Publication</a>
+        </div>
+
+        <div class="feature">
+            <h3>Take Tests and Exams</h3>
+            <p>Access a variety of tests and exams to evaluate your knowledge and progress.</p>
+            <a href="tests.html" class="logout-button">Take Tests</a>
+        </div>
+
+        <div class="feature">
+            <h3>Access Learning Resources</h3>
+            <p>Find valuable resources to help you succeed in your studies.</p>
+            <a href="resources.html" class="logout-button">View Resources</a>
+        </div>
+
+        <a href="logout.html" class="logout-button">Logout</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 HIRWA Rwanda. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
